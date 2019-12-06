@@ -88,7 +88,7 @@ let resumeData = {
       },
       {
         "name":"Tic-Tac-Toe",
-        "description":"Created with React. This was a fun game to build, although over done, it always testes tests ones logic skills. Additionally, I added CSS, HTML & played around with grid.",
+        "description":"Created with React. This was a fun game to build, although over done, it always tests ones logic skills. Additionally, I added CSS, HTML & played around with grid.",
         "imgurl":"https://media.giphy.com/media/U6derfInQGT7XS7IP7/giphy.gif"
       },
       {
