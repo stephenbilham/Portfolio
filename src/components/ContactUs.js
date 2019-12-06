@@ -5,20 +5,17 @@ export default class ContactUs extends Component {
     return (
       <section id="contact">
           <div className = "contactBox"></div>
-          <div className="row section-head">
+          <div className="">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me for any work or inqueries below!
+              Contact Me Here
               </p>
-              <div id="contact-box">
-                  <form action="/action_page.php">
-                  <label></label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name" />
-                  <label></label>
-                  <input type="email" id="email" name="email" placeholder="Your email" />
-                  <label></label>
-                  <textarea id="subject" name="subject" placeholder=""></textarea>
-                     <input id="submit-fix" type="submit" value="Submit" />
+              <div id="">
+                  <form action="/">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name" />
+                    <input type="email" id="email" name="email" placeholder="Your email" />
+                    <textarea id="subject" name="subject" placeholder=""></textarea>
+                    <input id="submit-fix" type="submit" value="Submit" />
                   </form>
               </div>
             </div>

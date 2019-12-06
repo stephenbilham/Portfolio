@@ -37,14 +37,15 @@ background-size: cover !important;
 }
 
 .profile-pic {
-   width: 23rem;
-   height: 27rem;
+   width: 13.2vw;
+   height: 15vw;
    border-radius: 16%;
-   margin-top: 3rem;
+   margin: 1rem;
+   float: left;
 }
 #profile-pic-center{
-  padding-left: 3rem;
-  display: inline-flex;
+  /* padding-left: 3rem;
+  display: inline-flex; */
 }
 
 
@@ -219,9 +220,10 @@ ul#nav li.current a { color: #F06000; }
   margin: -2rem auto -2rem auto;
 }
 
+
 #about {
    background: #fff;
-   margin: 100px;
+   margin: 8vw;
    overflow: hidden;
    padding: 5% 0;
    position: relative;
@@ -347,10 +349,10 @@ ul#nav li.current a { color: #F06000; }
    padding-left: 10px;
 }
 
-
 #tech-logo {
   max-width: 44px;
   max-height: 44px;
+  width: 80%;
 }
 
 #css-logo {
@@ -584,9 +586,10 @@ ul#nav li.current a { color: #F06000; }
    padding-left: 0px;
 }
 #portfolio {
-   margin: 100px;
    padding-top: 90px;
    padding-bottom: 60px;
+   margin-left: 1vw;
+   margin-right: 1vw;
    border-radius 2%;
 }
 
