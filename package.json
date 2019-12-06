@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://stephenbilham.github.io/Portfolio",
   "dependencies": {
+    "deploy": "^1.0.3",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",

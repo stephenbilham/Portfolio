@@ -11,7 +11,7 @@ export default class Porfolio extends Component {
               return(
                 <div className="portfolio-item portfolioGridSquare">
                   <div className="item-wrap">
-                    <a href="#modal-01">
+                    <div>
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -19,7 +19,7 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
-                    </a>
+                    </div>
                   </div>
                 </div>
               )
@@ -32,3 +32,4 @@ export default class Porfolio extends Component {
         );
   }
 }
+//switch div on 14=>22 with <a> tag <a href = "#modal01">
