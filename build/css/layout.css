@@ -293,12 +293,6 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
-.technologies p{
-  font: 13px 'opensans-bold', sans-serif;
-  color: black;
-  letter-spacing: 1px;
-}
-
 .grid {
    display: grid;
    grid-gap: 0px;
@@ -314,6 +308,24 @@ ul#nav li.current a { color: #F06000; }
    border: 1px solid transparent;
    padding-left: 0px;
    color: black
+}
+.languagesText{
+   /* font-variant: 'opensans-bold'; */
+   /* font-family: sans-serif; */
+   font: 13px 'opensans-bold', sans-serif;
+   color: black;
+   letter-spacing: 1px;
+ }
+ .languages-p {
+   color: #000;
+   font: 13px 'opensans-bold', sans-serif;
+   letter-spacing: 1px;
+}
+
+.frameworks-p {
+   color: #000;
+   font: 13px 'opensans-bold', sans-serif;
+   letter-spacing: 1px;
 }
 
 .gridSquare2 { 
@@ -349,10 +361,11 @@ ul#nav li.current a { color: #F06000; }
    padding-left: 10px;
 }
 
+
+
 #tech-logo {
-  max-width: 44px;
-  max-height: 44px;
-  width: 80%;
+  max-width: 100px;
+  width: 50%;
 }
 
 #css-logo {
@@ -635,14 +648,14 @@ ul#nav li.current a { color: #F06000; }
    height: 100%;
    margin: auto;
    max-width: 480px;
-	opacity: 0;
+	/* opacity: 0;
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
 
    -webkit-transition: opacity 0.3s ease-in-out;
 	-moz-transition: opacity 0.3s ease-in-out;
 	-o-transition: opacity 0.3s ease-in-out;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out; */
 
    background: url(../images/overlay-bg.png) repeat;
 }
@@ -1006,12 +1019,10 @@ call-to-action .button {
    padding-left: 5rem;
 }
 
-#submit-fix{ 
+/* #submit-fix{ 
    margin: 1% 26%;
    position: sticky;
-}
-
-}
+} */
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
@@ -1045,7 +1056,7 @@ call-to-action .button {
 }
 #contact p.lead {
    text-align: center;
-   padding-left: 9rem;
+   /* padding-left: 9rem; */
    letter-spacing: 1px;
    padding-bottom: 2.5rem;
    font: 24px/36px 'opensans-bold', sans-serif;
@@ -1076,7 +1087,9 @@ call-to-action .button {
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   width: 45vw;
+   margin-left: 27.5vw;
+   margin-right: 27.5vw;
 }
 #contact input:focus,
 #contact textarea:focus,
