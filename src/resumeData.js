@@ -83,22 +83,22 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Apartment Finder",
-        "description":"React in Rails project in progress. You are able to create a personal account/sign in using devise. Once signed in, and only signed in, you can create a listing for an apartment which is stored in a local Database.",
+        "description":"React in Rails project in progress. You are able to create a personal account/sign-in with devise. Once signed in, and only signed in, you can create a listing for an apartment which is stored in a local Database.",
         "imgurl":"https://media.giphy.com/media/WscWy0lw7k0kkojUYh/giphy.gif"
       },
       {
         "name":"Tic-Tac-Toe",
-        "description":"Created with React. This was a fun game to build although over done it always testes tests logic skills, and additionally, added CSS, & HTML & play around with using grid.",
+        "description":"Created with React. This was a fun game to build, although over done, it always testes tests ones logic skills. Additionally, I added CSS, HTML & played around with grid.",
         "imgurl":"https://media.giphy.com/media/U6derfInQGT7XS7IP7/giphy.gif"
       },
       {
         "name":"OmniFood",
-        "description":"HTML/CSS/JavaScript...Udemy course in progress that is teaching me design technique and the fundemental understanding when it comes to building a responsive website.",
+        "description":"HTML/CSS/JavaScript - Udemy course in progress that is teaching me design techniques. This project dives into understanding the fundementals when it comes to building a responsive website.",
         "imgurl":"https://media.giphy.com/media/llUpux1PKvrVHqUFTn/giphy.gif"
       },
       {
         "name":"Connect Four",
-        "description":"Created in React. This was logically challenging for a bootcamp student. The hardest part was finding all of the winning combinations using mathamatically heavy algorithims and trial and error. The stetch goal is to add animation for the connect four pieces to fall into the grid.",
+        "description":"Created in React. This was logically challenging for a bootcamp student. The hardest part was finding all of the winning combinations using mathamatical algorithims and trial and error. The stetch goal is to add animation for the connect four pieces to fall into the grid.",
         "imgurl":"https://media.giphy.com/media/YrC2lEAcG4loOj2aLI/giphy.gif"
       },
     ],
