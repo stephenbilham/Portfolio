@@ -11,10 +11,10 @@ export default class ContactUs extends Component {
               Contact Me Here
               </p>
               <div id="">
-                  <form action="/">
+                  <form>
                     <input type="text" id="fname" name="firstname" placeholder="Your name" />
                     <input type="email" id="email" name="email" placeholder="Your email" />
-                    <textarea id="subject" name="subject" placeholder=""></textarea>
+                    <textarea id="subject" name="subject" placeholder="Currently not working... Email: Stephenbilham@yahoo.com"></textarea>
                     <input id="submit-fix" type="submit" value="Submit" />
                   </form>
               </div>
