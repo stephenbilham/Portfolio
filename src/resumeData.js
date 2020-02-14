@@ -87,7 +87,7 @@ let resumeData = {
       name: "OmniFood",
       description:
         "Freshly started CSS/HTML Food delivery application that involves fluid grids, proper design techniques, positioning, media queries, Jquery, and much more. This project is responsive on web, tablets and iPhones of all sizes.",
-      imgurl: "https://media.giphy.com/media/WrytHtTpMDUYGeFwAy/giphy.gif"
+      imgurl: "https://media.giphy.com/media/hvLOGi1KsF02XiZ1DD/giphy.gif"
     },
     {
       name: "Tic-Tac-Toe",
