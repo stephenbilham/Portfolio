@@ -86,26 +86,38 @@ let resumeData = {
     {
       name: "OmniFood",
       description:
-        "Freshly started CSS/HTML Food delivery application that involves fluid grids, proper design techniques, positioning, media queries, Jquery, and much more. This project is responsive on web, tablets and iPhones of all sizes.",
+        "CSS/HTML - Food delivery application that involves fluid grids, proper design techniques, positioning, media queries, Jquery, and much more. This project is responsive on web, tablets and iPhones of all sizes.",
       imgurl: "https://media.giphy.com/media/hvLOGi1KsF02XiZ1DD/giphy.gif"
     },
     {
-      name: "Tic-Tac-Toe",
+      name: "Forkify",
       description:
-        "Used a React framework with Javascript/HTML/CSS. This was a fun game to build, although many think it is over done, it surely tests ones logic skills while learning how to code.",
-      imgurl: "https://media.giphy.com/media/U6derfInQGT7XS7IP7/giphy.gif"
-    },
-    {
-      name: "Apartment Finder",
-      description:
-        "React in Rails project in progress (REST/CRUD architecture). You are able to create a personal account/sign-in with devise. Once signed in, and only signed in, you can create a listing for an apartment which is stored to that user.",
-      imgurl: "https://media.giphy.com/media/WscWy0lw7k0kkojUYh/giphy.gif"
+        "JS - Here you can search through an API of recipes and add your favorites to a shopping list/favorite recipes (ingredients change with serving size). This was a complex app, using Async functions, fetch, await, callbacks, and closures",
+      imgurl: "https://media.giphy.com/media/ekeOYzzNEpW73RIcSb/giphy.gif"
     },
     {
       name: "Connect Four",
       description:
-        "This was logically challenging for a bootcamp student. The hardest part was finding all of the winning combinations using mathamatical algorithims and trial and error. The stetch goal is to add animation for the connect four pieces to fall into the grid.",
+        "React - This was logically challenging. The hardest part was finding all of the winning combinations using mathamatical algorithims/trial and error. The stetch goal is to add animation for the connect four pieces to fall.",
       imgurl: "https://media.giphy.com/media/YrC2lEAcG4loOj2aLI/giphy.gif"
+    },
+    {
+      name: "Budget Tracker",
+      description:
+        "JS - An application that allows users to track their monthly/ annual budgets. I use module patterns for clean, sectioned code and JavaScript concepts such as closures, prototypes, anonymous functions, and callbacks.",
+      imgurl: "https://media.giphy.com/media/jRN2RVW71ArjDWe5KC/giphy.gif"
+    },
+    {
+      name: "Apartment Finder",
+      description:
+        "React in Rails - project in progress (REST/CRUD architecture). You are able to create a personal account/sign-in with devise. Once signed in, you can create a listing for an apartment which is stored to that user.",
+      imgurl: "https://media.giphy.com/media/WscWy0lw7k0kkojUYh/giphy.gif"
+    },
+    {
+      name: "Tic-Tac-Toe",
+      description:
+        "React - framework with Javascript/HTML/CSS. This was a fun game to build, although many think it is over done, it surely tests ones logic skills while learning how to code.",
+      imgurl: "https://media.giphy.com/media/U6derfInQGT7XS7IP7/giphy.gif"
     }
   ]
 };

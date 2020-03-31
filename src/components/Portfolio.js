@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -6,13 +6,17 @@ export default class Porfolio extends Component {
       <section id="portfolio">
         <h1>Check Out Some of My Projects!</h1>
         <div className="portfolioGrid">
-          {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
-              return(
+          {resumeData.portfolio &&
+            resumeData.portfolio.map(item => {
+              return (
                 <div className="portfolio-item portfolioGridSquare">
                   <div className="item-wrap">
                     <div>
-                      <img src={`${item.imgurl}`} className="item-img"/>
+                      <img
+                        src={`${item.imgurl}`}
+                        alt="these are my projects"
+                        className="item-img"
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -22,14 +26,12 @@ export default class Porfolio extends Component {
                     </div>
                   </div>
                 </div>
-              )
-            })
-          }
-          <div id="portfolio-wrapper" className="">
-          </div>
+              );
+            })}
+          <div id="portfolio-wrapper" className=""></div>
         </div>
-  </section>
-        );
+      </section>
+    );
   }
 }
 //switch div on 14=>22 with <a> tag <a href = "#modal01">
