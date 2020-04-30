@@ -675,6 +675,23 @@ ul#nav li.current a { color: #F06000; }
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
+
+.portfolio__button__layout { 
+   margin: 0 auto;
+   display: grid;
+   width: 80%;
+}
+
+   
+.portfolio__button__layout button {
+   padding: 5% 0%;
+   font-size: 40px;
+   cursor: pointer
+}
+ 
+
+
+
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
