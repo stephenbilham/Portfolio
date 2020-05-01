@@ -202,18 +202,18 @@ ul#nav li.current a { color: #F06000; }
   flex-direction: column;
   height: auto;
   margin: -2rem auto -2rem auto;
+  padding: 10px;
 }
 
 
 #about {
    background: #fff;
-   margin: 8vw;
+   margin: 3vw;
    overflow: hidden;
-   padding: 5% 0;
+   padding: 3.5% 0;
    position: relative;
    align-self: center;
    /* display: inline-block; */
-   border-radius: 2%;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -221,17 +221,17 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 45px 'opensans-bold', sans-serif;
-   color: #000;
+   color: #80406f;
    margin-bottom: 12px;
    text-align: center;
 }
 .intro-p {
    line-height: 30px;
    color: #000;
-   text-align: justify;
-   padding-left: 3rem;
-   padding-right: 4rem;
-   padding-bottom: 6rem;
+   text-align: center;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-bottom: 4rem;
    padding-top: 1rem;
 }
 
@@ -675,6 +675,29 @@ ul#nav li.current a { color: #F06000; }
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
+
+.portfolio__button__layout { 
+   margin: 0 auto;
+   display: grid;
+   width: 70%;
+}
+
+   
+.portfolio__button__layout button {
+   padding: 5% 0%;
+   font-size: 200%;
+   cursor: pointer;
+   background-color:#55316fad;
+   -webkit-box-shadow: inset 5px 5px 10px purple;
+   -moz-box-shadow: inset 5px 5px 10px purple;
+        box-shadow: inset 5px 5px 10px purple;
+        outline: none;
+}
+
+.portfolio__button__layout button:active {
+  /* do something */
+}
+
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
@@ -1044,7 +1067,7 @@ call-to-action .button {
    letter-spacing: 1px;
    padding-bottom: 2.5rem;
    font: 24px/36px 'opensans-bold', sans-serif;
-   color: white;
+   color: #858585;
 }
 
 #contact .header-col { padding-top: 6px; }
@@ -1055,7 +1078,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #858585;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -1064,8 +1087,8 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
-	background: #373233;
+	color: #000000;
+	background: #cdcaca;
 	margin-bottom: 27px;
 	border: 0;
 	outline: none;
@@ -1078,9 +1101,9 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
-	background-color: #11ABB0;
-}
+	/* /* color: #fff;
+	background-color: white; */
+} */
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;

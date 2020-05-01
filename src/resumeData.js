@@ -17,7 +17,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "	I am a web developer based out of San Diego, California, able to create a web presence from the ground up — from conception to strategic planning, implementation, proper navigation, and programming to optimally improve Ux. I aim towards writing efficient, readable, and testable code while using the current best practices in web development. My optimistic and innovative mindset inevitably has driven me towards a passion for problem solving and creativity, as well as an array of other strengths such as being determined, persistent, hard working, a fast learner, and a team player proficient of a variety of scripting languages and frameworks. My knowledge extends past the scope of web development. Graduating from the University of San Diego, California (UCSD) with a BA degree in Communications, I understand the importance of effective interpersonal communication and its correlation within the tech-industry in regards of working with teams and other Web developers.",
+    "	I am a web developer based out of San Diego, California, able to create a web presence from the ground up — from conception to strategic planning, implementation, proper navigation, and programming to optimally improve UX. I aim towards writing efficient, readable, and testable code while using the current best practices in web development. My optimistic and innovative mindset inevitably has driven me towards a passion for problem solving and creativity, as well as an array of other strengths such as being determined, persistent, hard working, a fast learner, and a team player proficient of a variety of scripting languages and frameworks.",
   address: "San Diego",
   education: [
     {
@@ -87,37 +87,66 @@ let resumeData = {
       name: "OmniFood",
       description:
         "CSS/HTML - Food delivery application that involves fluid grids, proper design techniques, positioning, media queries, Jquery, and much more. This project is responsive on web, tablets and iPhones of all sizes.",
-      imgurl: "https://media.giphy.com/media/hvLOGi1KsF02XiZ1DD/giphy.gif"
+      imgurl: "https://media.giphy.com/media/hvLOGi1KsF02XiZ1DD/giphy.gif",
+      url: "https://stephenbilham.github.io/SbOmniFood/",
+      type: ["html"]
     },
     {
       name: "Forkify",
       description:
         "JS - Here you can search through an API of recipes and add your favorites to a shopping list/favorite recipes (ingredients change with serving size). This was a complex app, using Async functions, fetch, await, callbacks, and closures",
-      imgurl: "https://media.giphy.com/media/ekeOYzzNEpW73RIcSb/giphy.gif"
+      imgurl: "https://media.giphy.com/media/ekeOYzzNEpW73RIcSb/giphy.gif",
+      url:
+        "https://github.com/stephenbilham/Financial-budgeting-App/tree/master/Budgety/Starter",
+      type: ["html", "javascript"]
     },
     {
       name: "Connect Four",
       description:
         "React - This was logically challenging. The hardest part was finding all of the winning combinations using mathamatical algorithims/trial and error. The stetch goal is to add animation for the connect four pieces to fall.",
-      imgurl: "https://media.giphy.com/media/YrC2lEAcG4loOj2aLI/giphy.gif"
+      imgurl: "https://media.giphy.com/media/YrC2lEAcG4loOj2aLI/giphy.gif",
+      url: "",
+      type: ["react", "html", "javascript"]
+    },
+    {
+      name: "Laptop Store",
+      description:
+        "Node JS - Node Js practice where the purpose was to learn how to properly route based on filesharing/URL/ID's and rendering a cool looking laptop store application. This was the first introduction that I had to Node JS. ",
+      imgurl: "https://media.giphy.com/media/VGKPGZX3F2fDzC3zxX/giphy.gif",
+      url: "",
+      type: ["nodejs"]
+    },
+    {
+      name: "DOM-Pig-Game",
+      description:
+        "JS - This is a two player game where made with HTML while JS functionality and JS selctors to change the CSS properties. Goal of the game it to get to a score of user choice if double 6's global score is reset. if you role a 1 then it's switches players.",
+      imgurl: "https://media.giphy.com/media/YoPoDkMWH8gXzhY7Ll/giphy.gif",
+      url: "",
+      type: ["javascript"]
     },
     {
       name: "Budget Tracker",
       description:
         "JS - An application that allows users to track their monthly/ annual budgets. I use module patterns for clean, sectioned code and JavaScript concepts such as closures, prototypes, anonymous functions, and callbacks.",
-      imgurl: "https://media.giphy.com/media/jRN2RVW71ArjDWe5KC/giphy.gif"
+      imgurl: "https://media.giphy.com/media/jRN2RVW71ArjDWe5KC/giphy.gif",
+      url: "",
+      type: ["html", "javascript"]
     },
     {
       name: "Apartment Finder",
       description:
         "React in Rails - project in progress (REST/CRUD architecture). You are able to create a personal account/sign-in with devise. Once signed in, you can create a listing for an apartment which is stored to that user.",
-      imgurl: "https://media.giphy.com/media/WscWy0lw7k0kkojUYh/giphy.gif"
+      imgurl: "https://media.giphy.com/media/WscWy0lw7k0kkojUYh/giphy.gif",
+      url: "",
+      type: ["react", "ruby on rails"]
     },
     {
       name: "Tic-Tac-Toe",
       description:
         "React - framework with Javascript/HTML/CSS. This was a fun game to build, although many think it is over done, it surely tests ones logic skills while learning how to code.",
-      imgurl: "https://media.giphy.com/media/U6derfInQGT7XS7IP7/giphy.gif"
+      imgurl: "https://media.giphy.com/media/U6derfInQGT7XS7IP7/giphy.gif",
+      url: "",
+      type: ["react"]
     }
   ]
 };
