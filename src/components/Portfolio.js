@@ -16,10 +16,10 @@ export default class Porfolio extends Component {
       };
     });
     console.log(this.state.visibility);
-
-    // this.setState({ visibility: !this.state.visibility }); //old way
   }
+
   handleClick = type => {
+    this.toggleVisiblity();
     this.setState(() => {
       return {
         selectedTech: type
@@ -29,6 +29,7 @@ export default class Porfolio extends Component {
 
   displayType = () => {
     let resumeData = this.props.resumeData;
+    if (this.state.visibility === true) return;
     if (!resumeData.portfolio) return;
     return resumeData.portfolio
       .filter(tech => {
